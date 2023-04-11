@@ -1,0 +1,223 @@
+Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+8//4
+2
+8/2
+4.0
+1+2-3+4*3
+12
+2^10
+8
+2^1
+3
+3**4
+81
+6%5
+1
+"kusa"
+'kusa'
+'kumar'
+'kumar'
+print ('punnana')
+punnana
+print ('kusa's house')
+       
+SyntaxError: unterminated string literal (detected at line 1)
+print ("kusa's house")
+       
+kusa's house
+print ("'kusa'")
+       
+'kusa'
+print ('kusa's "house"')
+       
+SyntaxError: unterminated string literal (detected at line 1)
+print (kusa)
+       
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    print (kusa)
+NameError: name 'kusa' is not defined
+print ('kusa\'s 'house')
+       
+SyntaxError: unterminated string literal (detected at line 1)
+print ('kusa\'s house')
+       
+kusa's house
+print ('kusa''kumar')
+       
+kusakumar
+kusa+kumar
+       
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    kusa+kumar
+NameError: name 'kusa' is not defined
+'kusa'+'kumar'
+       
+'kusakumar'
+"kusa"+"kumar"
+       
+'kusakumar'
+prnt ("kk")
+       
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    prnt ("kk")
+NameError: name 'prnt' is not defined. Did you mean: 'print'?
+print ("kk")
+       
+kk
+5*"kk"
+       
+'kkkkkkkkkk'
+print ("c:\users\newfolder")
+       
+SyntaxError: incomplete input
+print ('c:\users\newfolder')
+       
+SyntaxError: incomplete input
+print ("c:\admin\newfolder")
+       
+c:dmin
+ewfolder
+print ("c:\Users\newfolder")
+       
+SyntaxError: incomplete input
+print ("c:\docs\newfolder")
+       
+c:\docs
+ewfolder
+print ("c:\folks\newfolder")
+       
+c:olks
+ewfolder
+print ("c:\programs\newfolder")
+       
+c:\programs
+ewfolder
+print (r"c:\users\newfolder")
+       
+c:\users\newfolder
+!- varibles -
+       
+SyntaxError: invalid syntax
+x=3
+       
+x+10
+       
+13
+x=7
+       
+y=8
+       
+x+y
+       
+15
+x-y
+       
+-1
+x/y
+       
+0.875
+x//y
+       
+0
+x
+       
+7
+print ('x value =','y value=',%d,%d)
+       
+SyntaxError: invalid syntax
+print ('x value =%d','y value=%d',x,y )
+       
+x value =%d y value=%d 7 8
+print ('"x value =%d','y value=%d',x,y )
+       
+"x value =%d y value=%d 7 8
+print ("x value =%d,y value=%d",x,y )
+       
+x value =%d,y value=%d 7 8
+abc
+       
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    abc
+NameError: name 'abc' is not defined. Did you mean: 'abs'?
+x+20
+       
+27
+_+y
+       
+35
+name ="youtube"
+       
+name[-1]
+       
+'e'
+name
+       
+'youtube'
+name[8]
+       
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    name[8]
+IndexError: string index out of range
+name+ 'channel'
+       
+'youtubechannel'
+name+ ' channel'
+       
+'youtube channel'
+name  'channel'
+       
+SyntaxError: invalid syntax
+name [0]
+       
+'y'
+name [1:4]
+       
+'out'
+name[:7]
+       
+'youtube'
+name [0:]
+       
+'youtube'
+name[3:10]
+       
+'tube'
+name[0:3] = 'my'
+       
+Traceback (most recent call last):
+  File "<pyshell#62>", line 1, in <module>
+    name[0:3] = 'my'
+TypeError: 'str' object does not support item assignment
+name[1] = 'Y'
+       
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    name[1] = 'Y'
+TypeError: 'str' object does not support item assignment
+'my' + name[0:3]
+       
+'myyou'
+'my ' + name[4:7]
+       
+'my ube'
+'my ' + name[3:7]
+       
+'my tube'
+'my ' + name[3:]
+       
+'my tube'
+'my ' + name[:7]
+       
+'my youtube'
+name[:]
+       
+'youtube'
+len(name)
+       
+7
